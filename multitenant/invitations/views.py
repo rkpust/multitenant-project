@@ -79,7 +79,7 @@ class InvitationCreateAPIView(APIView):
         recipient_list = [invitation.email]  # List of recipients
 
         # Send email
-        send_mail(subject, message, from_email, recipient_list)
+        #send_mail(subject, message, from_email, recipient_list)
 
 
 
